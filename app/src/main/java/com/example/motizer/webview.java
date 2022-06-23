@@ -21,7 +21,7 @@ public class webview extends AppCompatActivity {
         WebSettings websetting = webView.getSettings();
         websetting.setJavaScriptEnabled(true);
         webView.setWebViewClient(new Callback());
-        webView.loadUrl("https://www.google.com/");
+        webView.loadUrl("https://gogoanime.mom/movie/boruto-naruto-next-generations-dub/");
     }
 
     private class Callback extends WebViewClient {
